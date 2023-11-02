@@ -16,7 +16,7 @@ body {
     background: url(./images/5.png);
     background-repeat: no-repeat;
     background-size: cover; 
-    background-position: center 40%;
+    background-position: center 43%;
     /* margin-top: 50px; */
   }
 
@@ -24,10 +24,11 @@ body {
     display: grid;
     grid-template-columns: repeat(16, 1fr); /* 16 columns */
     grid-template-rows: repeat(16, 1fr); /* 16 rows */
-    width: 640px; /* Adjust based on the actual width you want */
-    height: 640px; /* Adjust based on the actual height you want */
+    width: 750px; /* Adjust based on the actual width you want */
+    height: 700px; /* Adjust based on the actual height you want */
     align-content: center;
     justify-content: center;
+    background-size: cover; 
   }
   
   .square {
@@ -36,3 +37,16 @@ body {
     box-sizing: border-box; /* Include the border in the element's dimensions */
   }
   
+
+#reset-button {
+  background-image: url('icon.png'); /* Replace with your image's URL */
+  background-size: 20px 20px; /* Or the size of your image */
+  background-repeat: no-repeat;
+  background-position: 10px center; /* Adjust as needed */
+  border: none; /* Remove default border */
+  cursor: pointer; /* Change mouse pointer on hover */
+  padding-left: 40px; /* Make space for the image */
+  /* Any other styling you need */
+  height: 40px; /* Adjust based on your needs */
+  width: 100px; /* Adjust based on your needs */
+}

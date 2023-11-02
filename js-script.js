@@ -10,7 +10,21 @@ document.addEventListener('DOMContentLoaded', function() {
     for (let i = 0; i < totalSquares; i++) {
       const square = document.createElement('div');
       square.classList.add('square');
-      // Add any additional styles or attributes to 'square' as needed
+      square.addEventListener('mouseover', function() {
+        square.style.backgroundColor = 'black';
+      });
       container.appendChild(square);
     }
+  
+    // Function to reset the color of all squares
+    function resetSquares() {
+      const squares = document.querySelectorAll('.square');
+      squares.forEach(square => {
+        square.style.backgroundColor = '#f0f0f0'; // Original color
+      });
+    }
+  
+    // Event listener for the reset button
+    const resetButton = document.getElementById('reset-button');
+    resetButton.addEventListener('click', resetSquares);
   });
