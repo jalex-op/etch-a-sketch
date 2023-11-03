@@ -47,8 +47,8 @@ body {
   border: none; 
   cursor: pointer; 
   padding: 0px;
-  height: 150px; 
-  width: 150px; 
+  height: 125px; 
+  width: 125px; 
   border-radius: 2em;
   border-width: 0px;
 }
@@ -64,5 +64,7 @@ body {
   flex-direction: column-reverse; /* Stack children vertically */
   align-items: center; /* Center-align items horizontally */
   justify-content: center; /* Center-align items vertically if there is extra space */
-  margin-bottom: -150px; /* Pushes the whole controls container down */
+  margin-bottom: -200px; /* Pushes the whole controls container down */
+  /* margin-top: 57px; */
+  padding: 50px;
 }
