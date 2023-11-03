@@ -17,42 +17,52 @@ body {
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center 43%;
-    /* margin-top: 50px; */
+   
   }
 
 #grid-container {
     display: grid;
-    grid-template-columns: repeat(16, 1fr); /* 16 columns */
-    grid-template-rows: repeat(16, 1fr); /* 16 rows */
-    width: 750px; /* Adjust based on the actual width you want */
-    height: 700px; /* Adjust based on the actual height you want */
+    grid-template-columns: repeat(16, 1fr); 
+    grid-template-rows: repeat(16, 1fr); 
+    width: 39vw; 
+    height: 35vw;
     align-content: center;
     justify-content: center;
     background-size: cover; 
   }
   
   .square {
-    background-color: rgb(194, 191, 180); /* Light gray background */
-    border: 1px solid black; /* Border of 1px */
-    box-sizing: border-box; /* Include the border in the element's dimensions */
+    background-color: rgb(194, 191, 180); 
+    border: 1px solid black; 
+    box-sizing: border-box; 
   }
   
 
 #reset-button {
-  background-image: url('icon.png'); /* Replace with your image's URL */
-  background-size: 20px 20px; /* Or the size of your image */
+  background-image: url('./images/reset.png'); 
+  background-size: contain; 
   background-repeat: no-repeat;
-  background-position: 10px center; /* Adjust as needed */
-  border: none; /* Remove default border */
-  cursor: pointer; /* Change mouse pointer on hover */
-  padding-left: 40px; /* Make space for the image */
-  /* Any other styling you need */
-  height: 40px; /* Adjust based on your needs */
-  width: 100px; /* Adjust based on your needs */
+  background-position: center; 
+  background-color: transparent;
+  border: none; 
+  cursor: pointer; 
+  padding: 0px;
+  height: 150px; 
+  width: 150px; 
+  border-radius: 2em;
+  border-width: 0px;
 }
 
-
 #resolution-slider {
-  width: 300px; /* Set the width you want */
-  margin: 20px; /* Add some space around the slider */
+  width: 300px; 
+  margin: 0px; 
+  
+}
+
+#control-board {
+  display: flex;
+  flex-direction: column-reverse; /* Stack children vertically */
+  align-items: center; /* Center-align items horizontally */
+  justify-content: center; /* Center-align items vertically if there is extra space */
+  margin-bottom: -150px; /* Pushes the whole controls container down */
 }
