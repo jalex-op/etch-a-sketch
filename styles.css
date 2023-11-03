@@ -61,10 +61,10 @@ body {
 
 #control-board {
   display: flex;
-  flex-direction: column-reverse; /* Stack children vertically */
-  align-items: center; /* Center-align items horizontally */
-  justify-content: center; /* Center-align items vertically if there is extra space */
-  margin-bottom: -200px; /* Pushes the whole controls container down */
+  flex-direction: column-reverse; 
+  align-items: center; 
+  justify-content: center; 
+  margin-bottom: -200px; 
   /* margin-top: 57px; */
   padding: 50px;
 }
