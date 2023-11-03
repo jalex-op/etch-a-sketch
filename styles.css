@@ -50,3 +50,9 @@ body {
   height: 40px; /* Adjust based on your needs */
   width: 100px; /* Adjust based on your needs */
 }
+
+
+#resolution-slider {
+  width: 300px; /* Set the width you want */
+  margin: 20px; /* Add some space around the slider */
+}
